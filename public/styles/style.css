@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&display=swap");
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  src: url("/fonts/PostNoBillsJaffna-Bold.ttf") format("ttf");
+}
+a {
+  color: inherit;
+}
+
+h1 {
+  font-family: "Post No Bills Jaffna";
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 150px 0;
+}
+.section__first {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+}
+.section__first--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 5px solid #fff;
+  width: 320px;
+  height: 320px;
+}
+.section__second {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+.section__second--title {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.section__second--item {
+  text-align: left;
+}
+.section__second--item--one {
+  display: flex;
+}
+.section--bgcolor {
+  background-color: #000;
+}
+
+.navbar {
+  background: #0F0F0F;
+  color: #fff;
+}
+.navbar-brand {
+  font-family: "Post No Bills Jaffna";
+  font-size: 36px;
+  font-weight: 700;
+}
+.navbar-nav {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.first--title {
+  font-family: "PT Sans";
+  font-size: 24px;
+  font-weight: 400;
+}
+.first--subtitle {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  width: 730px;
+  padding: 100px 0;
+}
+.first__title {
+  position: relative;
+}
+.first__title:before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 3px;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.btn {
+  background: #0F0F0F;
+  color: #fff;
+  border: none;
+}
+.btn:hover {
+  background: #fff;
+  opacity: 1;
+  color: #000;
+  font-weight: 700;
+}
+.btn--subscribe {
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.email--text {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.input {
+  width: 210px;
+  height: 40px;
+  background: #fff;
+  opacity: 0.4;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
